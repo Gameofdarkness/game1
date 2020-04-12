@@ -19484,14 +19484,17 @@ cr.getObjectRefTable = function () { return [
 	cr.plugins_.Sprite.prototype.cnds.OnCreated,
 	cr.behaviors.Pin.prototype.acts.Pin,
 	cr.plugins_.Browser.prototype.acts.Close,
-	cr.system_object.prototype.cnds.EveryTick,
-	cr.plugins_.Text.prototype.acts.SetText,
-	cr.system_object.prototype.cnds.CompareVar,
-	cr.behaviors.Platform.prototype.acts.SetJumpStrength,
 	cr.plugins_.Sprite.prototype.cnds.OnCollision,
 	cr.system_object.prototype.acts.SubVar,
 	cr.plugins_.Sprite.prototype.acts.Destroy,
 	cr.system_object.prototype.acts.AddVar,
-	cr.system_object.prototype.acts.CreateObject
+	cr.system_object.prototype.cnds.EveryTick,
+	cr.plugins_.Text.prototype.acts.SetText,
+	cr.system_object.prototype.cnds.CompareVar,
+	cr.behaviors.Platform.prototype.acts.SetJumpStrength,
+	cr.system_object.prototype.acts.CreateObject,
+	cr.plugins_.Touch.prototype.cnds.IsTouchingObject,
+	cr.behaviors.Platform.prototype.acts.SimulateControl,
+	cr.plugins_.Sprite.prototype.acts.SetMirrored
 ];};
 
